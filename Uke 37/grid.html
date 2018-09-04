@@ -3,22 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Eksempel på grid</title>
+    <!-- Vi legger inn all CSS i følgende style tag -->
     <style>
+    /*style har sin egen syntax (se for eksempel hvordan kommentarene
+    lages forskjellig)*/
+
+    /* i main vil det finnes mange html element, her aktiverer vi grid for
+    disse og setter noen egenskaper for vårt grid */
+      main{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 2fr;
+      grid-column-gap: 15px;
+      grid-row-gap: 3px;
+      }
+
+    /* elementene i main er p tagger, så vi må sette noen stil-
+      egenskaper for disse også */
       main>p{
       background-color: lightgreen;
       text-align: center;
       padding: 30px
-
-
-      }
-      main{
-        display:grid;
-        grid-template-columns: 200px 200px 200px 400px;
-        grid-column-gap: 5px;
-        grid-row-gap: 3px;
-        max-width: 1000px;
       }
     </style>
+    <!-- Vi er nå ute av CSS, og koder igjen med vanlig html -->
   </head>
   <body>
     <header></header>
