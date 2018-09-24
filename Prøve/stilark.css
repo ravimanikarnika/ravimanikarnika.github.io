@@ -1,0 +1,29 @@
+body{
+  background-color: #e9e9e9;
+  font-family: Helvetica, sans-serif;
+  color:#323232
+}
+
+header{
+  width: 60%;
+  margin: auto;
+}
+
+ul{
+  list-style-type: none;
+  padding:0;
+
+}
+
+li{
+  display: inline;
+}
+
+li>a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 5px;
+
+
+}
