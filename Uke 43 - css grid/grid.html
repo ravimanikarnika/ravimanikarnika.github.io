@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{
+        text-align: center;
+        max-width: 960px;
+        margin:auto;
+        margin-top: 10px;
+      }
+      #innhold{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        /*grid-auto-rows: minmax(200px, auto);*/
+      }
+      #innhold div{
+        background:pink;
+        padding:30px;
+
+      }
+
+      #innhold div:nth-child(even){
+        background:grey;
+      }
+
+      .en{
+        grid-column: 1 / 3;
+      }
+
+
+      /*.tre{
+        grid-row: 2 / 4;
+        grid-column: 1 / 4;
+      }*/
+
+      /*.åtte{
+        grid-column: 2 / 4;
+      }
+      .ni{
+        grid-row: 4;
+        grid-column: 1 / 2;
+      }*/
+      .tre{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+      /*
+      .tre p{
+        border:1px solid white;
+        padding: 10px;
+        margin:0px;
+      }*/
+    </style>
+
+
+  </head>
+  <body>
+    <div id="innhold">
+      <div class="en">1</div>
+      <div class="to">2</div>
+      <div class="tre">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+      </div>
+      <div class="fire">4</div>
+      <div class="fem">5</div>
+      <div class="seks">6</div>
+      <div class="sju">7</div>
+      <div class="åtte">8</div>
+      <div class="ni">9</div>
+    </div>
+
+  </body>
+</html>
