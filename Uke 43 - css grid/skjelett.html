@@ -11,7 +11,11 @@
         margin-top: 10px;
       }
       #innhold{
-        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        /*grid-auto-rows: minmax(200px, auto);*/
+
 
       }
       #innhold div{
@@ -29,17 +33,17 @@
 
   </head>
   <body>
-    <div id="innhold">
+    <section id="innhold">
       <div class="en">1</div>
       <div class="to">2</div>
-      <div class="tre">3 </div>
+      <div class="tre">3</div>
       <div class="fire">4</div>
       <div class="fem">5</div>
       <div class="seks">6</div>
       <div class="sju">7</div>
       <div class="åtte">8</div>
       <div class="ni">9</div>
-    </div>
+    </section>
 
   </body>
 </html>
