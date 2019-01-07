@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Eksempel på dropdown</title>
+    <style media="screen">
+      .grid-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      /*.dropdown{
+        position:relative;
+      }*/
+
+      .dropdown-innhold{
+        display:none;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+      }
+
+      .dropdown:hover .dropdown-innhold{
+        display:block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="dropdown">
+        <span>Tekst #1</span>
+        <div class="dropdown-innhold">
+          <div>Punkt 1</div>
+          <div>Punkt 2</div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <span>Tekst #2</span>
+        <div class="dropdown-innhold">
+          <div>Punkt 1</div>
+          <div>Punkt 2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
