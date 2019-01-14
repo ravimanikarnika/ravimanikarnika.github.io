@@ -10,6 +10,8 @@ header{
 header nav{
   display: flex;
   flex-direction: row;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
 }
 
 header nav a:last-child{
@@ -18,17 +20,10 @@ header nav a:last-child{
 
 header nav a{
   margin: 20px;
+  text-decoration: none;
+  color:black;
 }
 
-@media (max-width: 600px) {
-  header nav{
-    display: flex;
-    flex-direction: column;
-  }
-  header nav a:last-child{
-    margin-left:20px;
-  }
-}
 
 main{
   margin-top:10px;
@@ -56,5 +51,15 @@ main{
 @media (max-width: 600px) {
   main{
     grid-template-columns: 1fr;
+  }
+  header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav a:last-child{
+    margin:auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
   }
 }
