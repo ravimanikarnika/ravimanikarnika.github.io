@@ -6,6 +6,41 @@
     <link rel="stylesheet" href="adaptiv.css">
   </head>
   <body>
+    <!-- Javascript som kobler siden vår til en firebase server -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBHrrJhUE6WtQbwE0mlB5SS_IdJF7CGaE0",
+        authDomain: "it-1-database.firebaseapp.com",
+        databaseURL: "https://it-1-database.firebaseio.com",
+        projectId: "it-1-database",
+        storageBucket: "it-1-database.appspot.com",
+        messagingSenderId: "517480633493"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script>
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste")
+
+      kontaktliste.remove() // Tømmer databasen for gammel info i undervisning. Ta vekk denne etterhvert!
+      kontaktliste.push(
+      // SKRIV INN JSON OBJEKTET HER
+      {
+        "firstname": "Mickey",
+        "lastname": "Mouse",
+        "streetnr": "123 Fantasy way",
+        "city": "Anaheim",
+        "age": 73,
+      }
+      )
+      kontaktliste.push(
+      // SKRIV INN JSON OBJEKTET HER
+      )
+    </script>
+
     <header>
       <nav>
         <a href="nyheter.html">Nyheter</a>
