@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCFhmDveqpzRvevF6EyrLOh0NbACDQ3C_4",
+        authDomain: "pokemon-uke-8.firebaseapp.com",
+        databaseURL: "https://pokemon-uke-8.firebaseio.com",
+        projectId: "pokemon-uke-8",
+        storageBucket: "",
+        messagingSenderId: "974522538356"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+    <h1>PokeChat</h1>
+
+    <form id="chat">
+      <input type="text" id="avsender" required placeholder="Hvem er du?">
+      <input type="text" id="beskjed" required placeholder="Skriv meldingen her">
+      <button type="submit">OK</button>
+    </form>
+
+    <article id="txtMeldinger">
+    </article>
+
+    <script>
+      let db = firebase.database();
+      let meldinger = db.ref("meldinger")
+      let skjema = document.getElementById("chat")
+      let avsender = document.getElementById("avsender")
+      let beskjed = document.getElementById("beskjed")
+      let txtMeldinger = document.getElementById("txtMeldinger")
+
+      function visMelding(){
+
+      }
+
+      function regNyMelding(){
+        evt.preventDefault();
+        var nyMelding = {
+          avsender:avsender.value,
+          tekst:beskjed.value
+        };
+        meldinger.push(nyMelding)
+        beskjed.value="";
+      }
+      meldinger.on("child_added",visMelding)
+      skjema.onsubmit = regNyMelding;
+
+    </script>
+
+  </body>
+</html>
