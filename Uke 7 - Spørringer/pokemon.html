@@ -64,9 +64,10 @@
 
         function visGrass(){
           main.innerHTML = ``
-          pokemon.orderByChild("Name");
-          pokemon.limitToFirst(8)
-          pokemon.on("child_added",visPokemon);
+          pokemon
+            .orderByChild("Type1")
+            .equalTo("Grass")
+            .on("child_added",visPokemon);
         }
 
     </script>
