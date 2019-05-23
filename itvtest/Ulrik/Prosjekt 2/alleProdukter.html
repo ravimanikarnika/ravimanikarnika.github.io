@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dyrebakken</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img class="webBanner" src="Bilder/DyrebakkenLogo2.png"></a>
+    <nav>
+      <a href="alleProdukter.html">Alle produkter</a>
+      <a href="About.html">Om oss</a>
+    </nav>
+  </header>
+  <main>
+    <article class="description">
+      <p>Søk etter over 26 produkter i vår nettbutikk!</p>
+      <section class="sort">
+        <div class="dropdown">
+          <button class="dropbtn">Dyr</button>
+          <div class="dropdown-content">
+            <a onclick="visDyrNavn()">Navn</a>
+            <a onclick="visDyrPris()">Pris</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Tilbehør</button>
+          <div class="dropdown-content">
+            <a onclick="visTingNavn()">Navn</a>
+            <a onclick="visTingPris()">Pris</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Vis alt</button>
+          <div class="dropdown-content">
+            <a onclick="visAltNavn()">Navn</a>
+            <a onclick="visAltPris()">Pris</a>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article class="allDisplay"></article>
+  </main>
+  <footer>
+    <div>
+      &copy; 2019 av Ulrik Sørgaard Djupvik | Webdesign og Administrasjon av Ulrik Sørgaard Djupvik
+    </div>
+  </footer>
+  <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAjh3-5FEqEe-BbRap8aJzcDXbJAt9WrBI",
+      authDomain: "fittekuk-e760e.firebaseapp.com",
+      databaseURL: "https://fittekuk-e760e.firebaseio.com",
+      projectId: "fittekuk-e760e",
+      storageBucket: "fittekuk-e760e.appspot.com",
+      messagingSenderId: "1075370606661"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="alleProdukter.js"></script>
+</body>
+
+</html>

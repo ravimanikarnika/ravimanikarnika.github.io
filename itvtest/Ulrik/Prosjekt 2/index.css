@@ -1,0 +1,587 @@
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  margin-top: -0.5%;
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+body {
+  background-image:
+    linear-gradient(lightblue, rgb(176, 203, 238) 98%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  margin-left: 16rem;
+  margin-right: 16rem;
+  padding-bottom: 2%;
+  background-color: white;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-bottom: 2px solid black;
+  margin-top: -4px;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+  padding: 1rem;
+  background-color: beige;
+  transition: 0.5s;
+  font-family: 'Roboto Slab', serif;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+.webBanner {
+  width: 100%;
+}
+
+.videoContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.webVideo {
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-top: 2%;
+  margin-bottom: -4%;
+}
+
+.description {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 0.5rem;
+  font-size: 24px;
+  background-color: beige;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.productSection img {
+  width: 100%;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.productSection img:hover {
+  opacity: 0.9;
+  filter: invert(0.01);
+  transform: scale(1.01);
+  filter: drop-shadow(4px 4px 5px black);
+}
+
+.display {
+  transform: scale(0.8);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -4%;
+  margin-bottom: -4%;
+  padding-bottom: 10rem;
+  background-color: rgb(250, 250, 250);
+}
+
+.productSection {
+  padding: 2rem;
+  overflow: hidden;
+  margin-left: 2.5rem;
+}
+
+.productSection h1 {
+  font-size: 32px;
+}
+
+.productSection div {
+  font-size: 18px;
+  margin-top: -1.5rem;
+}
+
+.strikeThrough {
+  font-size: 18px;
+}
+
+.nyPris {
+  font-size: 24px;
+  margin-top: -0.8rem;
+  font-weight: bold;
+}
+
+#egPris {
+  margin-top: 1rem;
+}
+
+.purchaseLink {
+  text-decoration: none;
+  border: solid 1px black;
+  padding: 2% 5% 2% 5%;
+  margin: none;
+  text-align: center;
+  color: black;
+  background-color: gold;
+  font-size: 28px;
+}
+
+.purchaseLink:hover {
+  background-color: yellow;
+}
+
+.purchaseLink:active {
+  filter: saturate(50%);
+}
+
+.bildeSlide {
+  margin-top: -10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.bildeSlide img {
+  width: 100%;
+}
+
+.bildeCounter {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  transform: translateY(120%) translateX(96%);
+  margin: auto;
+  color: white;
+}
+
+/*alleProdukter*/
+.sort {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.allDisplay {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+/*produkt.html spesefike ting*/
+.dualDisplay {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#bildecontainer {
+  transform: scale(0.8);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  transition: 0.05s;
+  padding: 20rem;
+  width: 0%;
+  margin-right: 20rem;
+  border: 1px solid black;
+  background-color: beige;
+  grid-row: 2;
+  margin-top: -3rem;
+}
+
+#bildecontainer:hover {
+  filter: drop-shadow(4px 4px 5px black);
+}
+
+.bilderad {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2%;
+  margin-top: 2rem;
+}
+
+.bilderad img {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.bilderad img:hover {
+  filter: drop-shadow(0.8px 0.8px 1.2px black);
+}
+
+.bilderad img:active {
+  background-color: rgb(252, 252, 221);
+}
+
+.overviewLeft {
+  display: grid;
+  grid-template-rows: 1fr, 4fr;
+}
+
+.overviewLeftTxt {
+  padding-left: 7%;
+}
+
+.overviewContent {
+  font-size: 160%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.overviewRight {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  background-color: rgb(250, 250, 250);
+  margin-top: 20%;
+  margin-bottom: auto;
+  margin-right: 20%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  margin-bottom: 8%;
+}
+
+.overviewBottom {
+  margin-left: 8%;
+  line-height: 220%;
+  font-size: 80%;
+  margin-bottom: 2%;
+}
+
+.purchaseButton {
+  background-color: gold;
+  padding: 1vh;
+  font-size: 22px;
+  margin-top: 2vh;
+}
+
+.purchaseButton:hover {
+  background-color: yellow;
+}
+
+.purchaseButton:active {
+  background-color: yellowgreen;
+}
+
+footer {
+  border-top: 1px solid black;
+  margin-top: 4rem;
+  text-align: center;
+  padding: 8px;
+}
+
+/*about.html*/
+.about h1 {
+  font-size: 200%;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 1rem;
+}
+
+.about p {
+  font-size: 130%;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: -18px;
+}
+
+/*Dropdown knapper*/
+.dropbtn {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  padding: 18px;
+  font-size: 22px;
+  border: none;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.5s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+.tfk {
+  padding: 2%;
+  margin-top: 2%;
+  border: 8px solid beige;
+  font-size: 10vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+/*CSS for forskjellige skjermstørrelser*/
+
+@media (max-width: 1900px) {
+  main {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .bilderad {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .bilderad img {
+    width: 80%;
+  }
+
+  .bildeCounter {
+    transform: translateY(120%) translateX(95%);
+  }
+}
+
+@media (max-width: 1600px) {
+  header {
+    margin-top: -1.5%;
+    margin-left: -2%;
+    margin-right: -2%;
+  }
+
+  main {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .dualDisplay {
+    grid-template-columns: 1fr;
+  }
+
+  .overviewRight {
+    margin-top: -8%;
+    margin-bottom: -2%;
+    margin-left: -5%;
+    margin-right: none;
+    transform: scale(0.7);
+  }
+
+  .overviewRight section .strikeThrough {
+    font-size: 180%;
+  }
+
+  .overviewRight section .nyPris {
+    font-size: 210%;
+  }
+
+  .purchaseButton {
+    font-size: 200%;
+    margin-top: 4%;
+  }
+
+  .overviewBottom {
+    margin-right: 10%;
+  }
+
+  #bildecontainer {
+    transform: scale(0.6);
+    margin-bottom: -5%;
+    margin-top: -8%;
+  }
+
+  .overviewLeftTxt {
+    margin-left: 1.2%;
+  }
+
+  .dropbtn {
+    font-size: 18px;
+  }
+
+  .tfk{
+    font-size:8vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    margin-top: -2%;
+  }
+
+  .allDisplay {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .display {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -14%;
+    margin-bottom: -12%;
+  }
+
+  nav a {
+    font-size: 140%;
+  }
+
+  .overviewBottom {
+    margin-right: 20%;
+  }
+
+  .overviewLeftTxt {
+    margin-left: 0%;
+  }
+
+  .bildeCounter {
+    transform: translateY(120%) translateX(93%);
+  }
+
+  .dropbtn {
+    font-size: 17px;
+  }
+
+  .tfk{
+    font-size: 7vh;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .allDisplay {
+    grid-template-columns: 1fr;
+  }
+
+  .display {
+    grid-template-columns: 1fr;
+    margin-top: -70%;
+    margin-bottom: -80%;
+  }
+
+
+  .bilderad {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  nav a {
+    font-size: 120%;
+  }
+
+  #bildecontainer {
+    transform: scale(0.6);
+    margin-left: -8%;
+    margin-bottom: -8%;
+    margin-top: -10%;
+  }
+
+  .overviewRight {
+    margin-top: -50%;
+    margin-bottom: -45%;
+    margin-left: -25%;
+    margin-right: none;
+    transform: scale(0.4);
+  }
+
+  .overviewRight section .strikeThrough {
+    font-size: 300%;
+  }
+
+  .overviewRight section .nyPris {
+    font-size: 340%;
+  }
+
+  .purchaseButton {
+    font-size: 340%;
+    margin-top: 15%;
+  }
+
+  .overviewBottom {
+    margin-right: 40%;
+  }
+
+  .bildeCounter {
+    transform: translateY(140%) translateX(90%);
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .display {
+    margin-top: -80%;
+    margin-bottom: -90%;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 100%;
+  }
+
+  .dropbtn {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .dualDisplay {
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+
+  #bildecontainer {
+    transform: scale(0.5);
+    margin-left: -12%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+  }
+
+  .overviewBottom {
+    margin-right: 55%;
+  }
+
+  .bilderad img {
+    padding: 2%;
+    transform: scale(0.9)
+  }
+}
