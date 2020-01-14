@@ -1,0 +1,41 @@
+body{
+  background-color: cyan;
+  width: 80%;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+@media (max-width: 300px) {
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+}

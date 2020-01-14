@@ -28,6 +28,7 @@
         <button onclick="visAlle()">Alle</button>
         <button onclick="visGrass()">Grass</button>
 
+
       </nav>
     </header>
     <main>
@@ -43,13 +44,17 @@
 
         function visPokemon(snapshot){
               //Javascript-funksjon som skriver varene ut på nettsiden i main-elementet
-            console.log("hei");
             let pokeSnap = snapshot.val();
+            let key = snapshot.key;
+
+
             main.innerHTML +=`
                 <article class="Pokemon">
                   <h1>${pokeSnap.Name}</h1>
                   <img src="${pokeSnap.ImageURL}" alt="">
                   <p>${pokeSnap.Type1} - ${pokeSnap.Type2}</p>
+                  <a href="pokestats.html?id=${key}">Detaljer</a>
+
 
                 </article>
             `
@@ -60,17 +65,13 @@
           pokemon.on("child_added",visPokemon);
         }
 
+        visAlle();
+
         function visGrass(){
           main.innerHTML = ``
           pokemon.orderByChild("Type1").equalTo("Grass").on("child_added",visPokemon);
           pokemon.orderByChild("Type2").equalTo("Grass").on("child_added",visPokemon);
         }
-
-        function visAtilD(){
-          main.innerHTML = ``
-          pokemon.orderByChild("Name").startAt("A").endAt("E").on("child_added", visPokemon);
-        }
-        visAtilD();
 
     </script>
 
