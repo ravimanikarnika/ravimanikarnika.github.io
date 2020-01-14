@@ -1,0 +1,388 @@
+{
+  "Varer": {
+    "Alt": {
+      "Delfin": {
+        "Beskrivelse": "Delfiner er den yngste og mest artsrike gruppen av tannhvaler, og ble trolig etablert for omkring fem millioner år siden.<br><br> Gruppen av delfiner består av små og middels store tannhvaler, som varierer i vekt fra 50 kg til nærmere 8 000 kg og i lengde fra 1,5 meter til nærmere 10 meter. Delfinene har en langstrakt, strømlinjeformet kropp som gir liten motstand i vann. De fleste artene har en tydelig sigdformet ryggfinne, som kan variere mye i høyde. Noen arter har slående fargemønstre, mens andre er mer unisont farget. De fleste artene har kjever formet som et nebb, men ikke alle. Delfinene regnes av mange blant de mest intelligente dyrene på kloden, i tillegg til at de regnes som det mest lekne sjøpattedyret.",
+        "Bilder": ["Bilder/Delfin - Blå.png", "Bilder/Delfin - Rød.png", "Bilder/Delfin - Grønn.png", "Bilder/Delfin - Lilla.png", "Bilder/Delfin - Standard.png"],
+        "Navn": "Delfin",
+        "Pris": 13900,
+        "Type": "Dyr"
+      },
+      "Gorilla": {
+        "Beskrivelse": "Gorillaene lever i isolerte familier som består av en hann, et par-tre hunner og unger av forskjellig alder. Det er sjelden flere enn 20 individer i en gruppe. De streifer omkring i mer åpne tropeskoger og lever av frukt, bambusskudd, blad, røtter med mer. Om natten har gorillaene tilhold i primitive bo som de bygger i trær, sjeldnere på bakken. Hannen er ofte for stor til å kunne sove oppe i trærne og sover som regel ved foten av det treet hvor hunnene og ungene holder til. Gorillaen har kjempekrefter, og angrepet, såret eller forfulgt, kan gorillaen være farlig. Men som regel angriper den ikke uten at den blir forstyrret.",
+        "Bilder": ["Bilder/Gorilla - Blå.png", "Bilder/Gorilla - Rød.png", "Bilder/Gorilla - Grønn.png", "Bilder/Gorilla - Lilla.png", "Bilder/Gorilla - Standard.png"],
+        "Navn": "Gorilla",
+        "Pris": 29000,
+        "Type": "Dyr"
+      },
+      "Hund": {
+        "Beskrivelse": "Hund eller tamhund er en rovdyrart i hundefamilien. Dens nærmeste viltlevende slektning er ulven. For omkring 50 000 år siden begynte ulver å leve sammen med menneskene og utviklet seg gradvis til den hunden vi kjenner i dag. Hunden var det første husdyret vårt, og er i dag den arten som viser størst variasjon i størrelse, farge, fasong og atferd.",
+        "Bilder": ["Bilder/Hund - Blå.png", "Bilder/Hund - Rød.png", "Bilder/Hund - Grønn.png", "Bilder/Hund - Lilla.png", "Bilder/Hund - Standard.png"],
+        "Navn": "Hund",
+        "Pris": 4300,
+        "Type": "Dyr"
+      },
+      "Løve": {
+        "Beskrivelse": "Løven forekommer i vekslende biotoper, fra gresstepper i Øst-Afrika til ørkenområder i Kalahari. Den er et nattdyr som stort sett lever av storvilt, særlig antiloper og sebra, men også kveg. Den lurer seg inn på byttet og dreper det, oftest ved vanningsstedet.<br><br>Foruten mennesket hadde løven i tidligere tider den største utbredelsen av alle landlevende pattedyr. Den fantes over hele Afrika, store deler av Eurasia, i Nord-Amerika og de nordligste delene av Sør-Amerika. Den ble utryddet på Balkan i oldtiden, senere i Lilleasia, Palestina og østover, men en liten bestand finnes ennå i Gir-reservatet på Kathiawar-halvøya i det vestlige India. I Afrika er den utryddet nord for Sahara, og er sjelden i de vestlige og sørligste delene av kontinentet. Bestandsstørrelsen er vanskelig å anslå, men ligger antagelig godt under 100 000 dyr.",
+        "Bilder": ["Bilder/Løve - Blå.png", "Bilder/Løve - Rød.png", "Bilder/Løve - Grønn.png", "Bilder/Løve - Lilla.png", "Bilder/Løve - Standard.png"],
+        "Navn": "Løve",
+        "Pris": 25300,
+        "Type": "Dyr"
+      },
+      "Sjiraff": {
+        "Beskrivelse": "Sjiraffens hode er utstyrt med knuter og hudkledde horndannelser. På pannen er en uparet benknute, og på grensen mellom panneben og isseben er det hos begge kjønn utviklet små bakoverrettede horn som er overtrukket med hårkledd hud. Dette er selvstendige knokkeldannelser. Kroppen faller bratt av bakenfor skulderen. Halsen er uforholdsmessig lang, og dens virvler (syv i tallet, som hos de fleste andre pattedyr) er lange og gjør halsen stiv.<br><br>Kroppslengden er 3,8–4,7 meter. Høyden til hornspissene er 4,7–5,3 m, og skulderhøyden er ca. 3 m. Vekten ligger fra 550–1930 kg, hanner er størst. Fargen er gulhvit med store, skjoldformede, brune flekker. Det finnes flere underarter som avviker noe fra hverandre i fargemønster og størrelse.",
+        "Bilder": ["Bilder/Sjiraff - Blå.png", "Bilder/Sjiraff - Rød.png", "Bilder/Sjiraff - Grønn.png", "Bilder/Sjiraff - Lilla.png", "Bilder/Sjiraff - Standard.png"],
+        "Navn": "Sjiraff",
+        "Pris": 37000,
+        "Type": "Dyr"
+      },
+      "Panda": {
+        "Beskrivelse": "Pandaen har hvit pels med svarte markeringer rundt øynene, på ørene, munnen, beina og skuldrene. Den tykke, ullaktige pelsen holder godt på varmen i de kjølige fjellområdene som er pandaens hjem.<br><br>Noen spesielle tilpasninger gjør at den skiller seg fra andre bjørner: Pandaen har brede, flate jeksler og et stort håndleddsbein som fungerer som en motstående tommel. Begge disse tilpasningene brukes til å holde, mose og spise bambus.<br><br>Pandaen lager noen klynkende skrikelyder. Den høres nesten ut som en liten grisunge eller geitunge. I tillegg lager den gryntende lyder. Den har ikke det karakteristiske brølet vanlige bjørner har.",
+        "Bilder": ["Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png"],
+        "Navn": "Panda",
+        "Pris": 35200,
+        "Type": "Dyr"
+      },
+      "Isbjørn": {
+        "Beskrivelse": "Normalt har isbjørn en kroppslengde på 2,5–3 meter, med en 8–10 cm lang hale, og skulderhøyde 120–140 cm.<br><br>Hannene er størst. Hanner veier fra 260–650 kg, eller mer hvis de har lagret mye kroppsfett. Hunner veier 175–300 kg. Pelsen er langhåret og helhvit, ofte også gulfarget.",
+        "Bilder": ["Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png"],
+        "Navn": "Isbjørn",
+        "Pris": 39000,
+        "Type": "Dyr"
+      },
+      "Katt": {
+        "Beskrivelse": "Katten er et typisk rovdyr, som liker å jakte på potensielle byttedyr, og når den ikke er på jakt, hviler den så mye den kan. Katter viser stor individuell variasjon i sin atferd. Noen katter er svært sosiale, mens den typiske katt heller foretrekker å være alene. Atferd overfor mennesker har sammenheng med kattens gener og erfaringer den har gjort med mennesker tidlig i livet. Det er klare rasevariasjoner i atferd, mens variasjonen mellom kjønn ikke er så stor.",
+        "Bilder": ["Bilder/Katt - Blå.png", "Bilder/Katt - Rød.png", "Bilder/Katt - Grønn.png", "Bilder/Katt - Lilla.png", "Bilder/Katt - Standard.png"],
+        "Navn": "Katt",
+        "Pris": 3800,
+        "Type": "Dyr"
+      },
+      "Ku": {
+        "Beskrivelse": "Kyr, storfe eller tamfe som stammer fra ulike former av oksefamilien, og som blir holdt for produksjon av melk og kjøtt. Avkommet kalles okse- eller ku-kalv fra fødsel til kjønnsmodenhet. Kvige er hunndyret fra ettårsalder og frem til første kalving, enkelte steder brukt frem til andre kalving. Ku er hunndyr som har hatt kalv. Sinku er ku som har sluttet å produsere melk før neste fødsel. Et kjønnsmodent hanndyr kalles okse eller stut. Seminokser er avlsokser som brukes i kunstig inseminasjon etter et meget strengt utvalg. Drektighets- eller fostertiden er vanligvis 267–300 døgn, og kua får som regel én kalv ved hver fødsel.",
+        "Bilder": ["Bilder/Ku - Blå.png", "Bilder/Ku - Rød.png", "Bilder/Ku - Grønn.png", "Bilder/Ku - Lilla.png", "Bilder/Ku - Standard.png"],
+        "Navn": "Ku",
+        "Pris": 7400,
+        "Type": "Dyr"
+      },
+      "Dinosaur": {
+        "Beskrivelse": "I likhet med andre krypdyr har dinosaurer hud som er dekket av hornskjell.<br><br>Dinosaurer skiller seg fra de andre krypdyrene ved hvordan bena sitter på kroppen. Hos øgler og krokodiller, er bena holdt omtrent rett ut fra siden på dyret, men hos dinosaurer sitter bakbena mer vertikalt slik som hos pattedyr. Dette gir en oppreist holdning, noe som gjenspeiles i bygningen av bakbena og hofta. Noen arter går på to bein, mens andre går på fire. Noen dinosaurer kan glidefly, noe som blir hermet av fuglene.",
+        "Bilder": ["Bilder/Dinosaur - Blå.png", "Bilder/Dinosaur - Rød.png", "Bilder/Dinosaur - Grønn.png", "Bilder/Dinosaur - Lilla.png", "Bilder/Dinosaur - Standard.png"],
+        "Navn": "Dinosaur",
+        "Pris": 120000,
+        "Type": "Dyr"
+      },
+      "Jaguar": {
+        "Beskrivelse": "Jaguaren er Amerikas største katteart. Den både klatrer og svømmer godt, men jakter som regel på bakken. Spiseseddelen er meget variert: fugl, fisk, skilpadder og alligatorer, men helst et variert utvalg av pattedyr, helt opp til størrelse av tapir og storfe. Hunnen føder som regel to unger i kullet, av og til fire.<br><br>Jaguaren lever fortrinnsvis i tett skog og sumpmark med godt skjul, men jakter også i mer åpent terreng, som i det høye gresset på Argentinas pampas.",
+        "Bilder": ["Bilder/Jaguar - Blå.png", "Bilder/Jaguar - Rød.png", "Bilder/Jaguar - Grønn.png", "Bilder/Jaguar - Lilla.png", "Bilder/Jaguar - Standard.png"],
+        "Navn": "Jaguar",
+        "Pris": 47800,
+        "Type": "Dyr"
+      },
+      "Reinsdyr": {
+        "Beskrivelse": "Rein eller reinsdyr, partået klovdyrart i hjortefamilien. Om sommeren er reinen mørk brungrå på rygg og sider, undersiden er lys. I vinterdrakt er den lysere. Hårfellingen skjer i juli–august. Det forekommer atskillige fargevarianter, i våre stammer finnes det hvite dyr (albinos). Kroppslengde 185–220 cm, hale 10–15 cm, skulderhøyde 105–120 cm. Bukker veier 70–150 kg; vekter opp i mot 270 kg er kjent. Simla er noe mindre, men enkelte kan bli mellom 40–100 kg. Enkelte kalveløse simler kan bli nesten så store som bukkene.<br><br>Reinen forekommer i tundraområder og barskogområder på den nordlige halvkule og på en del av øyene i Nordishavet. Den er innført til Sør-Georgia i Sør-Atlanteren. I Norge forekommer vel 20 stammer av villrein. I Nord-Norge var villrein tidligere meget tallrik, men er nå helt fortrengt av tamrein.",
+        "Bilder": ["Bilder/Reinsdyr - Blå.png", "Bilder/Reinsdyr - Rød.png", "Bilder/Reinsdyr - Grønn.png", "Bilder/Reinsdyr - Lilla.png", "Bilder/Reinsdyr - Standard.png"],
+        "Navn": "Reinsdyr",
+        "Pris": 16400,
+        "Type": "Dyr"
+      },
+      "Hest": {
+        "Beskrivelse": "Hest er en dyreart i familien hester, som holdes som husdyr. Alle dagens hesteraser nedstammer fra den utdødde villhesten tarpan. Den ble temmet for cirka 6500 år siden på de eurasiske steppeområdene.<br><br>Hester har en enestående tilpasningsevne og finnes nå som husdyr i nesten alle land. Forvillede hester finnes i Nord- og Sør-Amerika samt Australia, hvor den som regel lever i mindre flokker. I verden er det over 60 millioner hester, fordelt på over 800 raser. De fleste av disse rasene er lokale, og 70 av de er internasjonale, det vil si at de finnes i mer enn 2-3 land.",
+        "Bilder": ["Bilder/Hest - Fortapt.png", "Bilder/Hest - Negativ.png", "Bilder/Hest - Positiv.png", "Bilder/Hest - Stolt.png", "Bilder/Hest - Standard.png"],
+        "Navn": "Hest",
+        "Pris": 25000,
+        "Type": "Dyr"
+      },
+      "Ravn": {
+        "Beskrivelse": "Ravn, Corvus corax, art i kråkefamilien. Den største av kråkefuglene og også den største spurvefuglen i verden. Ravnen er helsvart med metallglans og har lange strupefjær og kraftig nebb. Med en lengde på 65-70 cm, vekt på ca. 1,5 kg og et vingespenn på opptil 1,3 m, kan den på avstand forveksles med en rovfugl.<br><br>Ravnen finnes over det meste av Europa, Asia og Nord-Amerika samt i Nord-Afrika, og er en av de mest utbredte fugler på den nordlige halvkule. I alt finnes 11 underarter. I Norge finnes den i skog- og fjelltrakter og i kystfjell stort sett over hele landet. Den norske hekkebestanden har vært relativt stabil i perioden 1996 til 2013, og Norsk ornitologisk forening har beregnet at det hekker mellom 20 000 og 80 000 par i Norge. Ravnen er monogam og paret holder trolig sammen hele livet. Det store kvistreiret plasseres som oftest i en avsats i brattfjell, og er bygd av grove kvister med et indre belegg av finere kvister og foret med jord, ull og hår. Allerede i slutten av mars eller i første del av april legges 4-6 grønnaktige egg med tettstilte brune og grå flekker. Hunnen ruger i 3 uker, og mates av hannen. Ungene mates av begge foreldrene og forlater reiret rundt fem-seks uker gamle, men holder fortsatt sammen med foreldrene ennå flere uker.",
+        "Bilder": ["Bilder/Ravn - Hat.png", "Bilder/Ravn - Skog.png", "Bilder/Ravn - Syd.png", "Bilder/Ravn - Viking.png", "Bilder/Ravn - Standard.png"],
+        "Navn": "Ravn",
+        "Pris": 8000,
+        "Type": "Dyr"
+      },
+      "Rev": {
+        "Beskrivelse": "Rever utgjør en stor del av hundefamilien. Hva som skal regnes som rever er et definisjonsspørsmål. Noen mener navnet bør forbeholdes arter i slekten Vulpes, mens andre inkluderer alle arter der 'rev' er blitt en del av navnet. Generelt er rever de minste og mest spinkle medlemmene av hundefamilien. Det finnes 23 arter rever i 4 slekter. Slektene er:<br><br><b>Urocyon:</b> grårever, 2 arter i Nord-Amerika, derav én som er utbredt sørover til det nordligste Sør-Amerika. Slekten regnes som den eldste, den er 4-6 millioner år gammel.<br><b>Otocyon:</b> ørerev, 1 art, O. megalotis, som lever i Afrika.<br><b>Vulpes:</b> rever, 12 arter, finnes naturlig over hele den nordlige halvkule unntatt de mest arktiske strøk, samt i Afrika. Rødreven er kanskje det pattedyr som har videst utbredelse i verden.<br><b>Dusicyon:</b> zorroer, 8 arter som lever i Sør-Amerika. Disse kalles også sør-amerikanske grårever. De er nærmere i slekt med arter i hundeslekten Canis enn med de tre andre reveslektene.",
+        "Bilder": ["Bilder/Rev - Mikkel.png", "Bilder/Rev - Natur.png", "Bilder/Rev - Valentin.png", "Bilder/Rev - Vann.png", "Bilder/Rev - Standard.png"],
+        "Navn": "Rev",
+        "Pris": 16000,
+        "Type": "Dyr"
+      },
+      "Rådyr": {
+        "Beskrivelse": "Rådyret er brunrødt til grått med en stor hvit flekk rundt halepartiet, også kjent som speilet. Det har en skulderhøyde på mellom 64–89 cm og veier cirka 15–37 kg. Kroppen er mellom 95–135 cm lang og halen mellom to og fire cm. Hannen, som også kalles råbukk, har et kort, rett og spisst to- til tretagget gevir. Hunnen har ikke gevir og kalles rå eller rågeit. Rådyret har brunsttid i perioden juli–august, og ungene fødes i april–juni. Drektighetstiden varer 294 døgn, hvorav 150 døgn er forsinket innplanting. I Norge fantes det bare en liten bestand rådyr noen steder i Østfold omkring 1900. Siden 1930 har bestanden økt sterkt, og dyret finnes nå over hele landet. Bestanden er tettest sør for Nordland, med spredte streifindivider nord til Finnmark. Arten er fortsatt under spredning. Den totale bestanden er vanskelig å anslå, men det var trolig rundt 150 000 rådyr i Norge i midten av 1990-årene.<br><br>Rådyr forekommer i skogområder, skogkanter og kulturmark over hele Europa. De er utbredt over det meste av verdensdelen, til grenseområdene mot Asia, i vestlige Russland, Ukraina, Kaukasus, nordlige Syria, Irak og Iran. Øst for disse grenseområdene, til Sibir, Kina og Korea, finnes sibirsk rådyr, Capreolus pygargus, som tidligere ble regnet som en underart av det europeiske rådyret.",
+        "Bilder": ["Bilder/Rådyr - Druid.png", "Bilder/Rådyr - Forelsket.png", "Bilder/Rådyr - Sjenert.png", "Bilder/Rådyr - Trist.png", "Bilder/Rådyr - Standard.png"],
+        "Navn": "Rådyr",
+        "Pris": 19000,
+        "Type": "Dyr"
+      },
+      "Skilpadde": {
+        "Beskrivelse": "Skilpadder har bred, kort kropp dekket av et hvelvet ryggpanser og et flatt bukpanser. Hos de fleste er panserne fast forbundet på sidene og danner en benkasse. Ryggpanseret består innerst av sammenvokste virvler, brede ribben og en rekke benplater som dannes i lærhuden. Platene i bukpanseret, plastronet, dannes i lærhuden. Øverst er panseret dekket med hornplater, som i sin form og størrelse ikke svarer til benplatene.<br><br>Skilpaddene har lite hode og små øyne med øyelokk. Kjevene hos nålevende arter mangler tenner og er dekket med skarpe hornplater. Halsen er lang og lettbevegelig, mens halen er kort.<br><br>Hos landskilpadder er lemmene tykke og klumpete, hos havskilpadder lange og luffeformede. Hodet, halsen, halen og lemmene kan hos de fleste skilpadder trekkes inn under skjoldene når det er fare på ferde. De kroppsdelene som ikke er omgitt av skjoldet, har en bløt hud med hornskjell. Hudkjertler er fåtallige.<br><br>Hos de fleste skilpadder er spiserøret innvendig besatt med bakutrettede, spisse hornpapiller.<br><br>Hos planteetende skilpadder er tarmen lang. Som andre krypdyr er skilpaddene vekselvarme, og veggen mellom hjertekamrene er gjennombrutt. Lungene er store, tynnveggede og svampete. De er fastvokst til skallet, og åndedrettet foregår ved hjelp av én stor, flat utåndingsmuskel og to innåndingsmuskler.",
+        "Bilder": ["Bilder/Skilpadde - Marine.png", "Bilder/Skilpadde - Saturert.png", "Bilder/Skilpadde - Sliten.png", "Bilder/Skilpadde - Varme.png", "Bilder/Skilpadde - Standard.png"],
+        "Navn": "Skilpadde",
+        "Pris": 4600,
+        "Type": "Dyr"
+      },
+      "Tiger": {
+        "Beskrivelse": "Tigeren forekommer i vekslende leveområder, fra tropisk regnskog, snødekket barskog og løvskog og mangroveskog til tørrere skogtyper. Opprinnelig var tigeren utbredt over store deler av Asia. Mot nord går den langt opp i Sibir og Mandsjuria, mot vest til Det kaspiske hav og Kaukasus, mot øst til Stillehavet, og den forekommer også på flere av øyene i det sørøstlige Asia. Den er nå bare flekkvis utbredt og regnes som utryddelsestruet. Trolig finnes mindre enn 7000 dyr i vill tilstand, hvorav de fleste i India.",
+        "Bilder": ["Bilder/Tiger - Deppa.png", "Bilder/Tiger - Jungel.png", "Bilder/Tiger - Savanne.png", "Bilder/Tiger - Sol.png", "Bilder/Tiger - Standard.png"],
+        "Navn": "Tiger",
+        "Pris": 35000,
+        "Type": "Dyr"
+      },
+      "Pisk": {
+        "Beskrivelse": "Pisken er et særdeles viktig tilleggsutstyr for de som har dyr, fordi med den for man nemlig muligheten til å disiplinere dyret med en effektviitet som simpelthen ikke er mulig å oppnå uten en pisk.<br><br>Pisken kommer i forskjellige varianter, der disse differensieres ved deres farge, men felles for alle pisker er at de kan fungere på alle dyr, som er av en størellse større eller tilsvarende det av en hund, så lenge man bruker pisken riktig.",
+        "Bilder": ["Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png"],
+        "Navn": "Pisk",
+        "Pris": 300,
+        "Type": "Ting"
+      },
+      "Halsbånd": {
+        "Beskrivelse": "Halsbånd er et tilbehør eignet for alle dyr, og tilatter eieren av dyret å påsette dyren den informasjonen om at den er en eiendel av eieren.<br><br>Halsbåndene kommer i forskjellige farger, og tilfører man nok arbeid så skulle den kunne passe et hvert dyr også.",
+        "Bilder": ["Bilder/Halsbånd - Blå.png", "Bilder/Halsbånd - Rød.png", "Bilder/Halsbånd - Grønn.png", "Bilder/Halsbånd - Lilla.png", "Bilder/Halsbånd - Standard.png"],
+        "Navn": "Halsbånd",
+        "Pris": 200,
+        "Type": "Ting"
+      },
+      "Svijern": {
+        "Beskrivelse": "Svijernet er et redskap designet for å brenne inn et symbol inn i dyret som retter en som finner dyret på villspor mot eieren av dyret.<br><br>Svijernet er ment til å brukes på kyr, men den kan strengt brukes på et hvilket som helst dyr.",
+        "Bilder": ["Bilder/Svijern - Blå.png", "Bilder/Svijern - Rød.png", "Bilder/Svijern - Grønn.png", "Bilder/Svijern - Lilla.png", "Bilder/Svijern - Standard.png"],
+        "Navn": "Svijern",
+        "Pris": 1100,
+        "Type": "Ting"
+      },
+      "Kjøtt": {
+        "Beskrivelse": "Kjøtt er et av de viktigste, om ikke det viktigste, tilbehøre en dyreeier trenger. Med den kan man nemlig forebygge skader på dyret som sult, som videre fører tll at dyret kan opprettholdes lenger.",
+        "Bilder": ["Bilder/Kjøtt - Blå.png", "Bilder/Kjøtt - Rød.png", "Bilder/Kjøtt - Grønn.png", "Bilder/Kjøtt - Lilla.png", "Bilder/Kjøtt - Standard.png"],
+        "Navn": "Kjøtt",
+        "Pris": 750,
+        "Type": "Ting"
+      },
+      "Beroligende_middel": {
+        "Beskrivelse": "Dersom et dyr ikke oppfører seg på en gunstig måte er den letteste løsningen å skyte den med et beroligende middel. Av den grunn kan det være fint å inkorperere tranquilizers i arsenalet ditt dersom du har et dyr som ikke alltid oppfører seg som du vil at den skal.",
+        "Bilder": ["Bilder/Beroligende middel - Blå.png", "Bilder/Beroligende middel - Rød.png", "Bilder/Beroligende middel - Grønn.png", "Bilder/Beroligende middel - Lilla.png", "Bilder/Beroligende middel - Standard.png"],
+        "Navn": "Tranquilizer",
+        "Pris": 4200,
+        "Type": "Ting"
+      },
+      "Kniv": {
+        "Beskrivelse": "Når du kjøper dyr ifra dette nettstedet følger det ikke med returrett, så dersom du angrer på kjøpet ditt så finner du løsningen her.<br><br>Knivene kommer i fem forskjellige varianter, der fellesnevneren er det sylskarpe bladet.",
+        "Bilder": ["Bilder/Kniv - Blå.png", "Bilder/Kniv - Rød.png", "Bilder/Kniv - Grønn.png", "Bilder/Kniv - Lilla.png", "Bilder/Kniv - Standard.png"],
+        "Navn": "Kniv",
+        "Pris": 3400,
+        "Type": "Ting"
+      },
+      "Seng": {
+        "Beskrivelse": "Om du opplever at dyret ditt gjør mindre enn før, så kan grunnet til dette være at den er trøtt. I det tillfelle kan det være en fordel om du har en dyreseng, der de variantene du kan få kjøpt her kan brukes av alle dyr.",
+        "Bilder": ["Bilder/Seng - Blå.png", "Bilder/Seng - Rød.png", "Bilder/Seng - Grønn.png", "Bilder/Seng - Lilla.png", "Bilder/Seng - Standard.png"],
+        "Navn": "Dyre seng",
+        "Pris": 5400,
+        "Type": "Ting"
+      },
+      "Transport boks": {
+        "Beskrivelse": "Flyttebokser er spesielt eignet til å flytte dyr fra et sted til et annet, men den kan også brukes som et dyrehus for de litt mindre dyrene.",
+        "Bilder": ["Bilder/Transport boks - Blå.png", "Bilder/Transport boks - Rød.png", "Bilder/Transport boks - Grønn.png", "Bilder/Transport boks - Lilla.png", "Bilder/Transport boks - Standard.png"],
+        "Navn": "Flytteboks",
+        "Pris": 60,
+        "Type": "Ting"
+      },
+      "Akvarium": {
+        "Beskrivelse": "Akvariumer er et dyrs bestevenn, fordi her vil den kunne få fred fra omverdenen, samt som det er masse vann tilgjenglig.<br><br>Akvariumene kommer i fem forskjellige farger, men fiskene er ikke inkludert.",
+        "Bilder": ["Bilder/Akvarium - Blå.png", "Bilder/Akvarium - Rød.png", "Bilder/Akvarium - Grønn.png", "Bilder/Akvarium - Lilla.png", "Bilder/Akvarium - Standard.png"],
+        "Navn": "Akvarium",
+        "Pris": 2070,
+        "Type": "Ting"
+      }
+    },
+    "Dyr": {
+      "Delfin": {
+        "Beskrivelse": "Delfiner er den yngste og mest artsrike gruppen av tannhvaler, og ble trolig etablert for omkring fem millioner år siden.<br><br> Gruppen av delfiner består av små og middels store tannhvaler, som varierer i vekt fra 50 kg til nærmere 8 000 kg og i lengde fra 1,5 meter til nærmere 10 meter. Delfinene har en langstrakt, strømlinjeformet kropp som gir liten motstand i vann. De fleste artene har en tydelig sigdformet ryggfinne, som kan variere mye i høyde. Noen arter har slående fargemønstre, mens andre er mer unisont farget. De fleste artene har kjever formet som et nebb, men ikke alle. Delfinene regnes av mange blant de mest intelligente dyrene på kloden, i tillegg til at de regnes som det mest lekne sjøpattedyret.",
+        "Bilder": ["Bilder/Delfin - Blå.png", "Bilder/Delfin - Rød.png", "Bilder/Delfin - Grønn.png", "Bilder/Delfin - Lilla.png", "Bilder/Delfin - Standard.png"],
+        "Navn": "Delfin",
+        "Pris": 13900,
+        "Type": "Dyr"
+      },
+      "Gorilla": {
+        "Beskrivelse": "Gorillaene lever i isolerte familier som består av en hann, et par-tre hunner og unger av forskjellig alder. Det er sjelden flere enn 20 individer i en gruppe. De streifer omkring i mer åpne tropeskoger og lever av frukt, bambusskudd, blad, røtter med mer. Om natten har gorillaene tilhold i primitive bo som de bygger i trær, sjeldnere på bakken. Hannen er ofte for stor til å kunne sove oppe i trærne og sover som regel ved foten av det treet hvor hunnene og ungene holder til. Gorillaen har kjempekrefter, og angrepet, såret eller forfulgt, kan gorillaen være farlig. Men som regel angriper den ikke uten at den blir forstyrret.",
+        "Bilder": ["Bilder/Gorilla - Blå.png", "Bilder/Gorilla - Rød.png", "Bilder/Gorilla - Grønn.png", "Bilder/Gorilla - Lilla.png", "Bilder/Gorilla - Standard.png"],
+        "Navn": "Gorilla",
+        "Pris": 29000,
+        "Type": "Dyr"
+      },
+      "Hund": {
+        "Beskrivelse": "Hund eller tamhund er en rovdyrart i hundefamilien. Dens nærmeste viltlevende slektning er ulven. For omkring 50 000 år siden begynte ulver å leve sammen med menneskene og utviklet seg gradvis til den hunden vi kjenner i dag. Hunden var det første husdyret vårt, og er i dag den arten som viser størst variasjon i størrelse, farge, fasong og atferd.",
+        "Bilder": ["Bilder/Hund - Blå.png", "Bilder/Hund - Rød.png", "Bilder/Hund - Grønn.png", "Bilder/Hund - Lilla.png", "Bilder/Hund - Standard.png"],
+        "Navn": "Hund",
+        "Pris": 4300,
+        "Type": "Dyr"
+      },
+      "Løve": {
+        "Beskrivelse": "Løven forekommer i vekslende biotoper, fra gresstepper i Øst-Afrika til ørkenområder i Kalahari. Den er et nattdyr som stort sett lever av storvilt, særlig antiloper og sebra, men også kveg. Den lurer seg inn på byttet og dreper det, oftest ved vanningsstedet.<br><br>Foruten mennesket hadde løven i tidligere tider den største utbredelsen av alle landlevende pattedyr. Den fantes over hele Afrika, store deler av Eurasia, i Nord-Amerika og de nordligste delene av Sør-Amerika. Den ble utryddet på Balkan i oldtiden, senere i Lilleasia, Palestina og østover, men en liten bestand finnes ennå i Gir-reservatet på Kathiawar-halvøya i det vestlige India. I Afrika er den utryddet nord for Sahara, og er sjelden i de vestlige og sørligste delene av kontinentet. Bestandsstørrelsen er vanskelig å anslå, men ligger antagelig godt under 100 000 dyr.",
+        "Bilder": ["Bilder/Løve - Blå.png", "Bilder/Løve - Rød.png", "Bilder/Løve - Grønn.png", "Bilder/Løve - Lilla.png", "Bilder/Løve - Standard.png"],
+        "Navn": "Løve",
+        "Pris": 25300,
+        "Type": "Dyr"
+      },
+      "Sjiraff": {
+        "Beskrivelse": "Sjiraffens hode er utstyrt med knuter og hudkledde horndannelser. På pannen er en uparet benknute, og på grensen mellom panneben og isseben er det hos begge kjønn utviklet små bakoverrettede horn som er overtrukket med hårkledd hud. Dette er selvstendige knokkeldannelser. Kroppen faller bratt av bakenfor skulderen. Halsen er uforholdsmessig lang, og dens virvler (syv i tallet, som hos de fleste andre pattedyr) er lange og gjør halsen stiv.<br><br>Kroppslengden er 3,8–4,7 meter. Høyden til hornspissene er 4,7–5,3 m, og skulderhøyden er ca. 3 m. Vekten ligger fra 550–1930 kg, hanner er størst. Fargen er gulhvit med store, skjoldformede, brune flekker. Det finnes flere underarter som avviker noe fra hverandre i fargemønster og størrelse.",
+        "Bilder": ["Bilder/Sjiraff - Blå.png", "Bilder/Sjiraff - Rød.png", "Bilder/Sjiraff - Grønn.png", "Bilder/Sjiraff - Lilla.png", "Bilder/Sjiraff - Standard.png"],
+        "Navn": "Sjiraff",
+        "Pris": 37000,
+        "Type": "Dyr"
+      },
+      "Panda": {
+        "Beskrivelse": "Pandaen har hvit pels med svarte markeringer rundt øynene, på ørene, munnen, beina og skuldrene. Den tykke, ullaktige pelsen holder godt på varmen i de kjølige fjellområdene som er pandaens hjem.<br><br>Noen spesielle tilpasninger gjør at den skiller seg fra andre bjørner: Pandaen har brede, flate jeksler og et stort håndleddsbein som fungerer som en motstående tommel. Begge disse tilpasningene brukes til å holde, mose og spise bambus.<br><br>Pandaen lager noen klynkende skrikelyder. Den høres nesten ut som en liten grisunge eller geitunge. I tillegg lager den gryntende lyder. Den har ikke det karakteristiske brølet vanlige bjørner har.",
+        "Bilder": ["Bilder/Panda - Blå.png", "Bilder/Panda - Rød.png", "Bilder/Panda - Grønn.png", "Bilder/Panda - Lilla.png", "Bilder/Panda - Standard.png"],
+        "Navn": "Panda",
+        "Pris": 35200,
+        "Type": "Dyr"
+      },
+      "Isbjørn": {
+        "Beskrivelse": "Normalt har isbjørn en kroppslengde på 2,5–3 meter, med en 8–10 cm lang hale, og skulderhøyde 120–140 cm.<br><br>Hannene er størst. Hanner veier fra 260–650 kg, eller mer hvis de har lagret mye kroppsfett. Hunner veier 175–300 kg. Pelsen er langhåret og helhvit, ofte også gulfarget.",
+        "Bilder": ["Bilder/Isbjørn - Blå.png", "Bilder/Isbjørn - Rød.png", "Bilder/Isbjørn - Grønn.png", "Bilder/Isbjørn - Lilla.png", "Bilder/Isbjørn - Standard.png"],
+        "Navn": "Isbjørn",
+        "Pris": 39000,
+        "Type": "Dyr"
+      },
+      "Katt": {
+        "Beskrivelse": "Katten er et typisk rovdyr, som liker å jakte på potensielle byttedyr, og når den ikke er på jakt, hviler den så mye den kan. Katter viser stor individuell variasjon i sin atferd. Noen katter er svært sosiale, mens den typiske katt heller foretrekker å være alene. Atferd overfor mennesker har sammenheng med kattens gener og erfaringer den har gjort med mennesker tidlig i livet. Det er klare rasevariasjoner i atferd, mens variasjonen mellom kjønn ikke er så stor.",
+        "Bilder": ["Bilder/Katt - Blå.png", "Bilder/Katt - Rød.png", "Bilder/Katt - Grønn.png", "Bilder/Katt - Lilla.png", "Bilder/Katt - Standard.png"],
+        "Navn": "Katt",
+        "Pris": 3800,
+        "Type": "Dyr"
+      },
+      "Ku": {
+        "Beskrivelse": "Kyr, storfe eller tamfe som stammer fra ulike former av oksefamilien, og som blir holdt for produksjon av melk og kjøtt. Avkommet kalles okse- eller ku-kalv fra fødsel til kjønnsmodenhet. Kvige er hunndyret fra ettårsalder og frem til første kalving, enkelte steder brukt frem til andre kalving. Ku er hunndyr som har hatt kalv. Sinku er ku som har sluttet å produsere melk før neste fødsel. Et kjønnsmodent hanndyr kalles okse eller stut. Seminokser er avlsokser som brukes i kunstig inseminasjon etter et meget strengt utvalg. Drektighets- eller fostertiden er vanligvis 267–300 døgn, og kua får som regel én kalv ved hver fødsel.",
+        "Bilder": ["Bilder/Ku - Blå.png", "Bilder/Ku - Rød.png", "Bilder/Ku - Grønn.png", "Bilder/Ku - Lilla.png", "Bilder/Ku - Standard.png"],
+        "Navn": "Ku",
+        "Pris": 7400,
+        "Type": "Dyr"
+      },
+      "Dinosaur": {
+        "Beskrivelse": "I likhet med andre krypdyr har dinosaurer hud som er dekket av hornskjell.<br><br>Dinosaurer skiller seg fra de andre krypdyrene ved hvordan bena sitter på kroppen. Hos øgler og krokodiller, er bena holdt omtrent rett ut fra siden på dyret, men hos dinosaurer sitter bakbena mer vertikalt slik som hos pattedyr. Dette gir en oppreist holdning, noe som gjenspeiles i bygningen av bakbena og hofta. Noen arter går på to bein, mens andre går på fire. Noen dinosaurer kan glidefly, noe som blir hermet av fuglene.",
+        "Bilder": ["Bilder/Dinosaur - Blå.png", "Bilder/Dinosaur - Rød.png", "Bilder/Dinosaur - Grønn.png", "Bilder/Dinosaur - Lilla.png", "Bilder/Dinosaur - Standard.png"],
+        "Navn": "Dinosaur",
+        "Pris": 120000,
+        "Type": "Dyr"
+      },
+      "Jaguar": {
+        "Beskrivelse": "Jaguaren er Amerikas største katteart. Den både klatrer og svømmer godt, men jakter som regel på bakken. Spiseseddelen er meget variert: fugl, fisk, skilpadder og alligatorer, men helst et variert utvalg av pattedyr, helt opp til størrelse av tapir og storfe. Hunnen føder som regel to unger i kullet, av og til fire.<br><br>Jaguaren lever fortrinnsvis i tett skog og sumpmark med godt skjul, men jakter også i mer åpent terreng, som i det høye gresset på Argentinas pampas.",
+        "Bilder": ["Bilder/Jaguar - Blå.png", "Bilder/Jaguar - Rød.png", "Bilder/Jaguar - Grønn.png", "Bilder/Jaguar - Lilla.png", "Bilder/Jaguar - Standard.png"],
+        "Navn": "Jaguar",
+        "Pris": 47800,
+        "Type": "Dyr"
+      },
+      "Reinsdyr": {
+        "Beskrivelse": "Rein eller reinsdyr, partået klovdyrart i hjortefamilien. Om sommeren er reinen mørk brungrå på rygg og sider, undersiden er lys. I vinterdrakt er den lysere. Hårfellingen skjer i juli–august. Det forekommer atskillige fargevarianter, i våre stammer finnes det hvite dyr (albinos). Kroppslengde 185–220 cm, hale 10–15 cm, skulderhøyde 105–120 cm. Bukker veier 70–150 kg; vekter opp i mot 270 kg er kjent. Simla er noe mindre, men enkelte kan bli mellom 40–100 kg. Enkelte kalveløse simler kan bli nesten så store som bukkene.<br><br>Reinen forekommer i tundraområder og barskogområder på den nordlige halvkule og på en del av øyene i Nordishavet. Den er innført til Sør-Georgia i Sør-Atlanteren. I Norge forekommer vel 20 stammer av villrein. I Nord-Norge var villrein tidligere meget tallrik, men er nå helt fortrengt av tamrein.",
+        "Bilder": ["Bilder/Reinsdyr - Blå.png", "Bilder/Reinsdyr - Rød.png", "Bilder/Reinsdyr - Grønn.png", "Bilder/Reinsdyr - Lilla.png", "Bilder/Reinsdyr - Standard.png"],
+        "Navn": "Reinsdyr",
+        "Pris": 16400,
+        "Type": "Dyr"
+      },
+      "Hest": {
+        "Beskrivelse": "Hest er en dyreart i familien hester, som holdes som husdyr. Alle dagens hesteraser nedstammer fra den utdødde villhesten tarpan. Den ble temmet for cirka 6500 år siden på de eurasiske steppeområdene.<br><br>Hester har en enestående tilpasningsevne og finnes nå som husdyr i nesten alle land. Forvillede hester finnes i Nord- og Sør-Amerika samt Australia, hvor den som regel lever i mindre flokker. I verden er det over 60 millioner hester, fordelt på over 800 raser. De fleste av disse rasene er lokale, og 70 av de er internasjonale, det vil si at de finnes i mer enn 2-3 land.",
+        "Bilder": ["Bilder/Hest - Fortapt.png", "Bilder/Hest - Negativ.png", "Bilder/Hest - Positiv.png", "Bilder/Hest - Stolt.png", "Bilder/Hest - Standard.png"],
+        "Navn": "Hest",
+        "Pris": 25000,
+        "Type": "Dyr"
+      },
+      "Ravn": {
+        "Beskrivelse": "Ravn, Corvus corax, art i kråkefamilien. Den største av kråkefuglene og også den største spurvefuglen i verden. Ravnen er helsvart med metallglans og har lange strupefjær og kraftig nebb. Med en lengde på 65-70 cm, vekt på ca. 1,5 kg og et vingespenn på opptil 1,3 m, kan den på avstand forveksles med en rovfugl.<br><br>Ravnen finnes over det meste av Europa, Asia og Nord-Amerika samt i Nord-Afrika, og er en av de mest utbredte fugler på den nordlige halvkule. I alt finnes 11 underarter. I Norge finnes den i skog- og fjelltrakter og i kystfjell stort sett over hele landet. Den norske hekkebestanden har vært relativt stabil i perioden 1996 til 2013, og Norsk ornitologisk forening har beregnet at det hekker mellom 20 000 og 80 000 par i Norge. Ravnen er monogam og paret holder trolig sammen hele livet. Det store kvistreiret plasseres som oftest i en avsats i brattfjell, og er bygd av grove kvister med et indre belegg av finere kvister og foret med jord, ull og hår. Allerede i slutten av mars eller i første del av april legges 4-6 grønnaktige egg med tettstilte brune og grå flekker. Hunnen ruger i 3 uker, og mates av hannen. Ungene mates av begge foreldrene og forlater reiret rundt fem-seks uker gamle, men holder fortsatt sammen med foreldrene ennå flere uker.",
+        "Bilder": ["Bilder/Ravn - Hat.png", "Bilder/Ravn - Skog.png", "Bilder/Ravn - Syd.png", "Bilder/Ravn - Viking.png", "Bilder/Ravn - Standard.png"],
+        "Navn": "Ravn",
+        "Pris": 8000,
+        "Type": "Dyr"
+      },
+      "Rev": {
+        "Beskrivelse": "Rever utgjør en stor del av hundefamilien. Hva som skal regnes som rever er et definisjonsspørsmål. Noen mener navnet bør forbeholdes arter i slekten Vulpes, mens andre inkluderer alle arter der 'rev' er blitt en del av navnet. Generelt er rever de minste og mest spinkle medlemmene av hundefamilien. Det finnes 23 arter rever i 4 slekter. Slektene er:<br><br><b>Urocyon:</b> grårever, 2 arter i Nord-Amerika, derav én som er utbredt sørover til det nordligste Sør-Amerika. Slekten regnes som den eldste, den er 4-6 millioner år gammel.<br><b>Otocyon:</b> ørerev, 1 art, O. megalotis, som lever i Afrika.<br><b>Vulpes:</b> rever, 12 arter, finnes naturlig over hele den nordlige halvkule unntatt de mest arktiske strøk, samt i Afrika. Rødreven er kanskje det pattedyr som har videst utbredelse i verden.<br><b>Dusicyon:</b> zorroer, 8 arter som lever i Sør-Amerika. Disse kalles også sør-amerikanske grårever. De er nærmere i slekt med arter i hundeslekten Canis enn med de tre andre reveslektene.",
+        "Bilder": ["Bilder/Rev - Mikkel.png", "Bilder/Rev - Natur.png", "Bilder/Rev - Valentin.png", "Bilder/Rev - Vann.png", "Bilder/Rev - Standard.png"],
+        "Navn": "Rev",
+        "Pris": 16000,
+        "Type": "Dyr"
+      },
+      "Rådyr": {
+        "Beskrivelse": "Rådyret er brunrødt til grått med en stor hvit flekk rundt halepartiet, også kjent som speilet. Det har en skulderhøyde på mellom 64–89 cm og veier cirka 15–37 kg. Kroppen er mellom 95–135 cm lang og halen mellom to og fire cm. Hannen, som også kalles råbukk, har et kort, rett og spisst to- til tretagget gevir. Hunnen har ikke gevir og kalles rå eller rågeit. Rådyret har brunsttid i perioden juli–august, og ungene fødes i april–juni. Drektighetstiden varer 294 døgn, hvorav 150 døgn er forsinket innplanting. I Norge fantes det bare en liten bestand rådyr noen steder i Østfold omkring 1900. Siden 1930 har bestanden økt sterkt, og dyret finnes nå over hele landet. Bestanden er tettest sør for Nordland, med spredte streifindivider nord til Finnmark. Arten er fortsatt under spredning. Den totale bestanden er vanskelig å anslå, men det var trolig rundt 150 000 rådyr i Norge i midten av 1990-årene.<br><br>Rådyr forekommer i skogområder, skogkanter og kulturmark over hele Europa. De er utbredt over det meste av verdensdelen, til grenseområdene mot Asia, i vestlige Russland, Ukraina, Kaukasus, nordlige Syria, Irak og Iran. Øst for disse grenseområdene, til Sibir, Kina og Korea, finnes sibirsk rådyr, Capreolus pygargus, som tidligere ble regnet som en underart av det europeiske rådyret.",
+        "Bilder": ["Bilder/Rådyr - Druid.png", "Bilder/Rådyr - Forelsket.png", "Bilder/Rådyr - Sjenert.png", "Bilder/Rådyr - Trist.png", "Bilder/Rådyr - Standard.png"],
+        "Navn": "Rådyr",
+        "Pris": 19000,
+        "Type": "Dyr"
+      },
+      "Skilpadde": {
+        "Beskrivelse": "Skilpadder har bred, kort kropp dekket av et hvelvet ryggpanser og et flatt bukpanser. Hos de fleste er panserne fast forbundet på sidene og danner en benkasse. Ryggpanseret består innerst av sammenvokste virvler, brede ribben og en rekke benplater som dannes i lærhuden. Platene i bukpanseret, plastronet, dannes i lærhuden. Øverst er panseret dekket med hornplater, som i sin form og størrelse ikke svarer til benplatene.<br><br>Skilpaddene har lite hode og små øyne med øyelokk. Kjevene hos nålevende arter mangler tenner og er dekket med skarpe hornplater. Halsen er lang og lettbevegelig, mens halen er kort.<br><br>Hos landskilpadder er lemmene tykke og klumpete, hos havskilpadder lange og luffeformede. Hodet, halsen, halen og lemmene kan hos de fleste skilpadder trekkes inn under skjoldene når det er fare på ferde. De kroppsdelene som ikke er omgitt av skjoldet, har en bløt hud med hornskjell. Hudkjertler er fåtallige.<br><br>Hos de fleste skilpadder er spiserøret innvendig besatt med bakutrettede, spisse hornpapiller.<br><br>Hos planteetende skilpadder er tarmen lang. Som andre krypdyr er skilpaddene vekselvarme, og veggen mellom hjertekamrene er gjennombrutt. Lungene er store, tynnveggede og svampete. De er fastvokst til skallet, og åndedrettet foregår ved hjelp av én stor, flat utåndingsmuskel og to innåndingsmuskler.",
+        "Bilder": ["Bilder/Skilpadde - Marine.png", "Bilder/Skilpadde - Saturert.png", "Bilder/Skilpadde - Sliten.png", "Bilder/Skilpadde - Varme.png", "Bilder/Skilpadde - Standard.png"],
+        "Navn": "Skilpadde",
+        "Pris": 4600,
+        "Type": "Dyr"
+      },
+      "Tiger": {
+        "Beskrivelse": "Tigeren forekommer i vekslende leveområder, fra tropisk regnskog, snødekket barskog og løvskog og mangroveskog til tørrere skogtyper. Opprinnelig var tigeren utbredt over store deler av Asia. Mot nord går den langt opp i Sibir og Mandsjuria, mot vest til Det kaspiske hav og Kaukasus, mot øst til Stillehavet, og den forekommer også på flere av øyene i det sørøstlige Asia. Den er nå bare flekkvis utbredt og regnes som utryddelsestruet. Trolig finnes mindre enn 7000 dyr i vill tilstand, hvorav de fleste i India.",
+        "Bilder": ["Bilder/Tiger - Deppa.png", "Bilder/Tiger - Jungel.png", "Bilder/Tiger - Savanne.png", "Bilder/Tiger - Sol.png", "Bilder/Tiger - Standard.png"],
+        "Navn": "Tiger",
+        "Pris": 35000,
+        "Type": "Dyr"
+      }
+    },
+    "Ting": {
+      "Pisk": {
+        "Beskrivelse": "Pisken er et særdeles viktig tilleggsutstyr for de som har dyr, fordi med den for man nemlig muligheten til å disiplinere dyret med en effektviitet som simpelthen ikke er mulig å oppnå uten en pisk.<br><br>Pisken kommer i forskjellige varianter, der disse differensieres ved deres farge, men felles for alle pisker er at de kan fungere på alle dyr, som er av en størellse større eller tilsvarende det av en hund, så lenge man bruker pisken riktig.",
+        "Bilder": ["Bilder/Pisk - Blå.png", "Bilder/Pisk - Rød.png", "Bilder/Pisk - Grønn.png", "Bilder/Pisk - Lilla.png", "Bilder/Pisk - Standard.png"],
+        "Navn": "Pisk",
+        "Pris": 300,
+        "Type": "Ting"
+      },
+      "Halsbånd": {
+        "Beskrivelse": "Halsbånd er et tilbehør eignet for alle dyr, og tilatter eieren av dyret å påsette dyren den informasjonen om at den er en eiendel av eieren.<br><br>Halsbåndene kommer i forskjellige farger, og tilfører man nok arbeid så skulle den kunne passe et hvert dyr også.",
+        "Bilder": ["Bilder/Halsbånd - Blå.png", "Bilder/Halsbånd - Rød.png", "Bilder/Halsbånd - Grønn.png", "Bilder/Halsbånd - Lilla.png", "Bilder/Halsbånd - Standard.png"],
+        "Navn": "Halsbånd",
+        "Pris": 200,
+        "Type": "Ting"
+      },
+      "Svijern": {
+        "Beskrivelse": "Svijernet er et redskap designet for å brenne inn et symbol inn i dyret som retter en som finner dyret på villspor mot eieren av dyret.<br><br>Svijernet er ment til å brukes på kyr, men den kan strengt brukes på et hvilket som helst dyr.",
+        "Bilder": ["Bilder/Svijern - Blå.png", "Bilder/Svijern - Rød.png", "Bilder/Svijern - Grønn.png", "Bilder/Svijern - Lilla.png", "Bilder/Svijern - Standard.png"],
+        "Navn": "Svijern",
+        "Pris": 1100,
+        "Type": "Ting"
+      },
+      "Kjøtt": {
+        "Beskrivelse": "Kjøtt er et av de viktigste, om ikke det viktigste, tilbehøre en dyreeier trenger. Med den kan man nemlig forebygge skader på dyret som sult, som videre fører tll at dyret kan opprettholdes lenger.",
+        "Bilder": ["Bilder/Kjøtt - Blå.png", "Bilder/Kjøtt - Rød.png", "Bilder/Kjøtt - Grønn.png", "Bilder/Kjøtt - Lilla.png", "Bilder/Kjøtt - Standard.png"],
+        "Navn": "Kjøtt",
+        "Pris": 750,
+        "Type": "Ting"
+      },
+      "Beroligende_middel": {
+        "Beskrivelse": "Dersom et dyr ikke oppfører seg på en gunstig måte er den letteste løsningen å skyte den med et beroligende middel. Av den grunn kan det være fint å inkorperere tranquilizers i arsenalet ditt dersom du har et dyr som ikke alltid oppfører seg som du vil at den skal.",
+        "Bilder": ["Bilder/Beroligende middel - Blå.png", "Bilder/Beroligende middel - Rød.png", "Bilder/Beroligende middel - Grønn.png", "Bilder/Beroligende middel - Lilla.png", "Bilder/Beroligende middel - Standard.png"],
+        "Navn": "Tranquilizer",
+        "Pris": 4200,
+        "Type": "Ting"
+      },
+      "Kniv": {
+        "Beskrivelse": "Når du kjøper dyr ifra dette nettstedet følger det ikke med returrett, så dersom du angrer på kjøpet ditt så finner du løsningen her.<br><br>Knivene kommer i fem forskjellige varianter, der fellesnevneren er det sylskarpe bladet.",
+        "Bilder": ["Bilder/Kniv - Blå.png", "Bilder/Kniv - Rød.png", "Bilder/Kniv - Grønn.png", "Bilder/Kniv - Lilla.png", "Bilder/Kniv - Standard.png"],
+        "Navn": "Kniv",
+        "Pris": 3400,
+        "Type": "Ting"
+      },
+      "Seng": {
+        "Beskrivelse": "Om du opplever at dyret ditt gjør mindre enn før, så kan grunnet til dette være at den er trøtt. I det tillfelle kan det være en fordel om du har en dyreseng, der de variantene du kan få kjøpt her kan brukes av alle dyr.",
+        "Bilder": ["Bilder/Seng - Blå.png", "Bilder/Seng - Rød.png", "Bilder/Seng - Grønn.png", "Bilder/Seng - Lilla.png", "Bilder/Seng - Standard.png"],
+        "Navn": "Dyre seng",
+        "Pris": 5400,
+        "Type": "Ting"
+      },
+      "Transport boks": {
+        "Beskrivelse": "Flyttebokser er spesielt eignet til å flytte dyr fra et sted til et annet, men den kan også brukes som et dyrehus for de litt mindre dyrene.",
+        "Bilder": ["Bilder/Transport boks - Blå.png", "Bilder/Transport boks - Rød.png", "Bilder/Transport boks - Grønn.png", "Bilder/Transport boks - Lilla.png", "Bilder/Transport boks - Standard.png"],
+        "Navn": "Flytteboks",
+        "Pris": 60,
+        "Type": "Ting"
+      },
+      "Akvarium": {
+        "Beskrivelse": "Akvariumer er et dyrs bestevenn, fordi her vil den kunne få fred fra omverdenen, samt som det er masse vann tilgjenglig.<br><br>Akvariumene kommer i fem forskjellige farger, men fiskene er ikke inkludert.",
+        "Bilder": ["Bilder/Akvarium - Blå.png", "Bilder/Akvarium - Rød.png", "Bilder/Akvarium - Grønn.png", "Bilder/Akvarium - Lilla.png", "Bilder/Akvarium - Standard.png"],
+        "Navn": "Akvarium",
+        "Pris": 2070,
+        "Type": "Ting"
+      }
+    }
+  }
+}
