@@ -1,0 +1,35 @@
+body{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: Arial;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#divInpt{
+  margin-bottom: 20px;
+}
+
+section{
+  display: flex;
+}
+
+.divFra{
+  border-radius: 10px;
+  background-color: #f5f3f0;
+  padding: 5px;
+  margin: 10px;
+  min-width: 120px;
+}
+
+.divTekst{
+  border-radius: 10px;
+  background-color: #f5dd67;
+  padding: 5px;
+  padding-left: 20px;
+  margin: 10px;
+  min-width: 500px;
+}

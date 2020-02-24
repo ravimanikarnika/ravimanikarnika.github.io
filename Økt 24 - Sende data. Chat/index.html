@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat!</title>
+    <link rel="stylesheet" href="chat.css">
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCQCPjjplDoN1U1DeTrt3rZz9F0sy5e-fI",
+        authDomain: "uke-4-84fdb.firebaseapp.com",
+        databaseURL: "https://uke-4-84fdb.firebaseio.com",
+        projectId: "uke-4-84fdb",
+        storageBucket: "uke-4-84fdb.appspot.com",
+        messagingSenderId: "450018038171",
+        appId: "1:450018038171:web:98eaf529c8a47e3a0a113e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <div id="divInpt">
+      <input type="text" id="inpNavn" placeholder="Brukernavn">
+      <input type="text" id="inpMeld" placeholder="Skriv meldingen her">
+      <button type="button" id="btnMeld" onclick="leggTilMeld()">Send!</button>
+
+    </div>
+
+
+    <div id="meldinger">
+
+    </div>
+
+    <script src="chat.js">
+
+
+    </script>
+
+  </body>
+</html>
